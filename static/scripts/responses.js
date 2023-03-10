@@ -1,22 +1,22 @@
 function getBotResponse(input) {
     if(input == 001){
-        return "What is your problem?";
+        return "What is your Problem?";
     }
     else if(input == "missing accessories"){
-        return "add more description"
+        return "Add More Description"
     } else if (input=="missing earphones"){
-        return "Ok. How can we help you ?"
+        return "OK. How Can We help you ?"
     } else if(input == "can i return?"){
-        return "enter your product id"
+        return "Enter Your Product Id"
     }
     else if(input == 006){
-        return "return product or cancel request"
+        return "Return Product or Cancel Request"
     }
     else if(input == "return product"){
-        return "Enter your details"
+        return "Return Order Placed Successfully!!!"
     }
     else{
-        return "enter proper details.."
+        return "Enter Proper Details.."
     }
     
 }
