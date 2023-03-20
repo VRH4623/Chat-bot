@@ -1,67 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="HEMANTH V R" />
+    <!-- Keyword Metadata -->
+    <meta
+      name="keywords"
+      content="HEMANTH V R"
+    />
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="assets\img\Old_Pic.ico" />
+    <!-- Webpage Title -->
+    <title>HEMANTH V R</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Bot</title>
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
 
-    <link rel="stylesheet" href="static/css/chat.css">
-    <link rel="stylesheet" href="static/css/home.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
-
-<body>
-    <!-- CHAT BAR BLOCK -->
-    <div class="chat-bar-collapsible">
-        <button id="chat-button" type="button" class="collapsible">Chat with us!
-            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
-        </button>
-
-        <div class="content">
-            <div class="full-chat-block">
-                <!-- Message Container -->
-                <div class="outer-container">
-                    <div class="chat-container">
-                        <!-- Messages -->
-                        <div id="chatbox">
-                            <h5 id="chat-timestamp"></h5>
-                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
-                        </div>
-
-                        <!-- User input box -->
-                        <div class="chat-bar-input-block">
-                            <div id="userInput">
-                                <input id="textInput" class="input-box" type="text" name="msg"
-                                    placeholder="Tap 'Enter' to send a message">
-                                <p></p>
-                            </div>
-
-                            <div class="chat-bar-icons">
-                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
-                                    onclick="heartButton()"></i>
-                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
-                                    onclick="sendButton()"></i>
-                            </div>
-                        </div>
-
-                        <div id="chat-bar-bottom">
-                            <p></p>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+          <span class="site-title">HEMANTH</span>
+          <spanclass="site-description" Programmer • Machine Learning Engineer • Web Developer></spanclass>
+          </span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/hemanthvr4623">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/VRH4623">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Résumé" target="_blank" href="https://drive.google.com/file/d/19tC4mQeqk-okyIFdNVkTwk2K36riG4px/view?usp=share_link">
+            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Send Email" href="hemanth.cs20@bitsathy.ac.in" target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
         </div>
-
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
     </div>
 
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="static/scripts/responses.js"></script>
-<script src="static/scripts/chat.js"></script>
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <u><h1>My Story</h1></u>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="assets\img\webp\Professional-Picture-Me.jpg"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+          <img
+            src="assets\img\webp\Professional-Picture-Me.jpg"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+        </picture>
+        <p>
+          My name is Hemannth V R. I design and build things for the Web. I'm currently in my third year of CSE degree at Bannari Amman Institute of Technology, Tamil Nadu, India. I have a huge passion for programming and web-developing. Eventually I started learning Html and CSS and entered the world of Web development. Also, I am currently doing some projects related to web-developing.
+But I would still like to consider that there are still many worlds in the web to explore. Aside from programming and web-developing, I am a huge cinephile.
+        </p>
+      </div>
 
+      <!-- User Specifics -->
+      <div class="user">
+        <!-- Technology Stack #1: Languages -->
+        <div class="tech">
+          <h2>Languages</h2>
+          <i class="devicon-c-plain-wordmark colored"></i>
+          <i class="devicon-cplusplus-plain colored"></i>
+          <br><br>
+          <p>My favorite languages for systems programming and Problem solving.</p>
+        </div>
+
+        <!-- Technology Stack #2: Front-End -->
+        <div class="tech">
+          <h2>Front-End</h2>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-react-original"></i>
+          <p>My preferred technologies for front-end web development and component design.</p>
+        </div>
+
+        <!-- Technology Stack #3: Back-End -->
+        <div class="tech">
+          <h2>Back-End</h2>
+          <i class="devicon-nodejs-plain"></i>
+          <i class="devicon-mongodb-plain"></i>
+          <br><br>
+
+          <p>My preferred technologies for back-end web programming and database architecture.</p>
+        </div>
+
+        <!-- Technology Stack #4: Tools -->
+        <div class="tech">
+          <h2>Tools</h2>
+          
+          <i class="devicon-visualstudio-plain colored"></i>
+          <i class="devicon-github-plain-wordmark colored"></i>
+          <i class="devicon-figma-plain"></i>
+          <i class="devicon-git-plain-wordmark colored"></i> 
+          <i class="devicon-figma-plain"></i>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="75cm"/>
+          <p>My favorite tools for version control, code editing, and designing.</p>
+        </div>
+
+        
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="user-details">
+        <u><h1>Featured Projects</h1></u><br><br>
+      </div>
+
+      <!-- User Project #1: EXPENSES - TRACKER -->
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/expense-tracker.jpg" alt="Personal Website" />
+            <img alt="Personal Website" src="assets\img\webp\expense-tracker.jpg" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>Expenses - Tracker</h3>
+          
+          <p style="text-align: justify">
+            The main objective of this project is to give you a clear image of how much expenses you are making. This app will help you to determine whether the expenses are feasible with your income. 
+          </p>
+          <a class="project-link" target="_blank" href="https://expenses-tracker-h24u.onrender.com">Check it out!</a>
+        </div>
+      </div>
+      <br>
+      <br>
+
+       <!-- User Project #2: CURRENCY CONVERTER -->
+       <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source type="image/webp" srcset="assets\img\webp\currency-converter.jpg" alt="Personal Website" />
+            <img alt="Personal Website" src="assets\img\webp\currency-converter.jpg" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>Currency - Converter</h3>
+          
+          <p style="text-align: justify">
+            Currency converter aim to maintain real- time information on current market or bank exchange rates. So, the calculated result changes whenever the value of either of the currency component does. 
+          </p>
+          <a class="project-link" target="_blank" href="https://currency-converter-tedh.onrender.com">Check it out!</a>
+        </div>
+      </div>
+      <br>
+      <br>
+
+             <!-- User Project #3: NOTES -->
+             <div class="user-projects">
+              <div class="images-right">
+                <picture>
+                  <source type="image/webp" srcset="assets\img\webp\notes.jpg" alt="Personal Website" />
+                  <img alt="Personal Website" src="assets\img\webp\notes.jpg" />
+                </picture>
+              </div>
+              <div class="contents" style="text-align: center">
+                <h3>Notes</h3>
+                
+                <p style="text-align: justify">
+                  This app is used to track your day to day work and it also used a remainder. It is also used to recollect the past. 
+                </p>
+                <a class="project-link" target="_blank" href="https://notes-app-bway.onrender.com">Check it out!</a>
+              </div>
+            </div>
+
+            <!-- User Project #4: CHAT-BOT -->
+             <div class="user-projects">
+              <div class="images-right">
+                <picture>
+                  <source type="image/webp" srcset="assets\img\webp\chatbot.jpg" alt="Personal Website" />
+                  <img alt="Personal Website" src="assets\img\webp\chatbot.jpg" />
+                </picture>
+              </div>
+              <div class="contents" style="text-align: center">
+                <h3>Chat-bot</h3>
+                
+                <p style="text-align: justify">
+                  A simple chatbot application that is used as customer service option in a shopping website that get the queries from the customer and provide a solution to it. 
+                </p>
+                <a class="project-link" target="_blank" href="https://notes-app-bway.onrender.com">Check it out!</a>
+              </div>
+            </div>
+      
+
+     
+      
+    </section>
+
+    <footer class="footer">
+      <p>&copy; Hemanth V R 2023</p>
+    </footer>
+
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
